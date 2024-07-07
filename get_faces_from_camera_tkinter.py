@@ -15,10 +15,9 @@ detector = dlib.get_frontal_face_detector()
 class Face_Register:
     def __init__(self):
 
-        self.current_frame_faces_cnt = 0  #  cnt for counting faces in current frame
-        self.existing_faces_cnt = 0  # cnt for counting saved faces
-        self.ss_cnt = 0  #  cnt for screen shots
-
+        self.current_frame_faces_cnt = 0  
+        self.existing_faces_cnt = 0 
+        self.ss_cnt = 0  
         self.win = tk.Tk()
         self.win.title("Face Register")
 

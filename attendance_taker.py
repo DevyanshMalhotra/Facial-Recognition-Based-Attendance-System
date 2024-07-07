@@ -275,7 +275,6 @@ class Face_Recognizer:
 
 
 def main():
-    # logging.basicConfig(level=logging.DEBUG) # Set log level to 'logging.DEBUG' to print debug info of every frame
     logging.basicConfig(level=logging.INFO)
     Face_Recognizer_con = Face_Recognizer()
     Face_Recognizer_con.run()
